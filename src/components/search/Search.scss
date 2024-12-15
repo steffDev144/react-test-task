@@ -1,0 +1,28 @@
+.search {
+	position: relative;
+	margin: 10px 0 20px;
+	input {
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-left: 36px;
+
+	}
+	&::before {
+		content: "";
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: 2;
+		left: 11px;
+		width: 14px;
+		height: 14px;
+		display: block;
+		background: url("./search.svg");
+		position: absolute;
+	}
+	.TextField-InputContainer_view_default {
+		padding: 0;
+	}
+	.TextField-ClearButton {
+		margin: 0 11px;
+	}
+}

@@ -1,0 +1,49 @@
+.filter {
+	border: 3px solid #7a7a7a;
+	border-radius: 6px;
+	padding: 15px;
+
+	&__title {
+		text-align: left;
+		font-size: 18px;
+		line-height: 120%;
+		margin-bottom: 15px;
+		color: #000;
+	}
+
+	.FieldLabel {
+		font-size: 12px;
+		line-height: 150%;
+		margin-bottom: 4px;
+		color: rgba(0, 32, 51, 0.6);
+	}
+
+	.Checkbox {
+		display: flex;
+		margin: 20px 0 15px;
+		span {
+			font-size: 14px;
+			line-height: 100%;
+			color: #002033;
+		}
+	}
+
+	.deprecated--Select-ControlInner {
+		overflow-x: scroll;
+		overflow-y: hidden;
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+	.deprecated--Select-ControlInner::-webkit-scrollbar { width: 0; }
+	.deprecated--Select-ControlValueContainer {
+		display: flex;
+		width: max-content;
+		gap: 2px;
+		align-items: center;
+	}
+	.deprecated--Select-IndicatorsDropdown {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
